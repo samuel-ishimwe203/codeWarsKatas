@@ -5,4 +5,4 @@ function onlyDuplicates(str) {
  
   
 }
-console.log(onlyDuplicates('ishimwesamuel'))
+console.log(onlyDuplicates('ishimwesa'))
