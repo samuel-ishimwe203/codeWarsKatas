@@ -9,4 +9,4 @@ const multiplesOfAnyNumber=(n,limit)=>{
      return answer
 }
 
-console.log(multiplesOfAnyNumber(4,20))
+console.log(multiplesOfAnyNumber(4,30))
