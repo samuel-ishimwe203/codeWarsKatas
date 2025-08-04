@@ -41,3 +41,20 @@ function squareDigits(num){
   
   return Number(result)
 }
+
+// Map
+
+const obj = new Map()
+
+ obj.set  ('user',{
+    name : 'samuel',
+    name : 'samuel',
+    age : 34,
+    years : 2005
+
+})
+
+console.log(obj)
+
+
+
