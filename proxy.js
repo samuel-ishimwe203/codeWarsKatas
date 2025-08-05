@@ -37,9 +37,9 @@ const propOne ={
 
 const hander = {
     default: 'No property',
-    get(target, prop,reciever){
+    get: function(target, prop,reciever){
         if(prop in target){
-            return target[prop]
+            return target[prop].toUpperCase()
         }
         return this.default
     }
@@ -48,4 +48,4 @@ const hander = {
 const newPro = new Proxy(propOne, hander)
 newPro.prop1 = 'Kigali'
 newPro.prop2 = 'Rwanda'
-console.log(newPro)
+console.log(newPro.prop1 )
