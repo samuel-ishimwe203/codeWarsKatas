@@ -56,5 +56,11 @@ const obj = new Map()
 
 console.log(obj)
 
+const newMap = new Map()
+newMap.set('samuel',22)
+newMap.set('Elia',23)
+newMap.set('Gambira')
+console.log(newMap)
+
 
 
