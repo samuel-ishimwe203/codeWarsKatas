@@ -1,4 +1,7 @@
 
+/* proxy is an object that allows you to intercept and customize operation performed 
+ to another object (the called target) using traps inside a hander object  */
+
 
 const user = {
     name :'samuel',
@@ -18,8 +21,31 @@ const validators = {
 
 const proxyUser = new   Proxy(user , validators)
 
-// proxyUser.age = 40
-// proxyUser.name = 'Elia'
+proxyUser.age = 40
+proxyUser.name = 'Elia'
 
 
 console.log(proxyUser)
+
+
+// second example
+
+const propOne ={
+    prop1 : 'hello',
+    prop2 : 'GoodBy'
+}
+
+const hander = {
+    default: 'No property',
+    get(target, prop,reciever){
+        if(prop in target){
+            return target[prop]
+        }
+        return this.default
+    }
+}
+
+const newPro = new Proxy(propOne, hander)
+newPro.prop1 = 'Kigali'
+newPro.prop2 = 'Rwanda'
+console.log(newPro)
