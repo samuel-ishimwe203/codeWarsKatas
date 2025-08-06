@@ -32,4 +32,4 @@ function group(numbers) {
     return result;
   }, []);
 }
- console.log(group([1,2,3,4,5,3,1,2]))
+ console.log(group([1,2,3,4,5,3,2]))
