@@ -33,3 +33,24 @@ function group(numbers) {
   }, []);
 }
  console.log(group([1,2,3,4,5,3,2]))
+
+
+
+ 
+function divisions(n, devisor){
+  let remeinder = n / devisor
+  const arr = []
+  while(remeinder > 1){
+    if(remeinder >=1){
+      arr.push(remeinder)
+    }
+    n = Math.ceil(remeinder)
+    remeinder = n /devisor
+  }
+  if(arr.length <1){
+    return 0
+  }else{
+    return arr.length
+  }
+}
+console.log(divisions(4, 3))
