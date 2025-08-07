@@ -7,8 +7,20 @@ import React from 'react'
                 
               <a className='text-white font-bold text-2xl ' href="#">Drivers</a>
               <a className=' hover:text-green-500 mt-2' href="#"> All Drivers</a>
-              <a className=' hover:text-green-500 mt-2' href="#">GetForce Drivers</a>
-              <a className=' hover:text-green-500 mt-2' href="#">Networking Drivers</a>
+                <a className=' hover:text-green-500 mt-2' href="#"> GetForce Drivers</a>
+              
+               
+                 <select name="" id="" disabled="disabled">
+                    
+                      <option value="#">Networking Drivers</option>
+                     <option value="#"> Firmware Download</option>
+                      <option value="#"> InfiniBand/VPI Drivers</option>
+                       <option value="#"> Ethernet Drivers</option>
+               </select>
+            
+              
+           
+           
          </nav>
     </div>
   )
