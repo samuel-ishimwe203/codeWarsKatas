@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg'
 import Header1 from './components/Header1.jsx'
 import Section2 from './components/Section2.jsx'
 import Section3 from './components/Section3.jsx'
+import Form from './components/Form.jsx'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Header1/>
      <Section2/>
      <Section3/>
+     <Form/>
     </>
   )
 }
