@@ -2,6 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
+    <div>
     <div className='m-10 '>
           <div><p className=' text-black font-black text-2xl'>Manual Driver Search</p></div>
           <div className='mt-3 grid grid-cols-2 '> <div><input type="text" className='border-none outline-none w-[65%]' placeholder='search for product product type or series' /></div>
@@ -16,8 +17,11 @@ function Form() {
                <option className=' border border-solid border-lime-600 p-8' value="">Select property categories</option>
         </select>
    </div>
-
+                     
+                 <button className='bg-red-300 hover:bg-blue-500 focus:bg-red-600'>click</button>
+                 
     </div>
+     <div className='bg-blue-500 w-20 items-center p-5  place-items-center m-auto'><span>hello</span></div></div>
   )
 }
 
