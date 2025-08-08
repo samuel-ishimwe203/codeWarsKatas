@@ -3,7 +3,7 @@ import React from 'react'
 function Form() {
   return (
     <div>
-    <div className='m-10 '>
+    <div className='m-10 border-2 border-gray-400 w-[35%] p-10'>
           <div><p className=' text-black font-black text-2xl'>Manual Driver Search</p></div>
           <div className='mt-3 grid grid-cols-2 '> <div><input type="text" className='border-none outline-none w-[65%]' placeholder='search for product product type or series' /></div>
           <div>
@@ -12,16 +12,32 @@ function Form() {
 </svg></div>
 </div>
 
-    <div>
-        <select>
-               <option className=' border border-solid border-lime-600 p-8' value="">Select property categories</option>
-        </select>
-   </div>
-                     
-                 <button className='bg-red-300 hover:bg-blue-500 focus:bg-red-600'>click</button>
-                 
+  <div className='mt-6 grid grid-rows-5 gap-7 '>
+        <select  className='border-2 border-gray-400 p-2 w-[100%]'>
+                  <option value="">Select Product Category</option>  
+        </select>  
+         <select  className='border-2 border-gray-400 p-2 w-[100%]'>
+                  <option value="">Select Product Series</option>  
+        </select> 
+         <select  className='border-2 border-gray-400 p-2w-[100%]'>
+                  <option value="">Select Product Category</option>  
+        </select> 
+         <select  className='border-2 border-gray-400  p-2 w-[100%]'>
+                  <option value="">Select Product Category</option>  
+        </select> 
+
+        <select  className='border-2 border-gray-400  p-2 w-[100%]'>
+                  <option value="">Select Product Category</option>  
+        </select> 
+         {/* <select  className='border-2 border-gray-400 p-2 w-[100%]'>
+                  <option value="">Select Product Category</option>  
+        </select>  */}
+  </div>
+
+  <div className='bg-gray-300 mt-5 p-2 w-[20%] text-gray-100 font-bold'>Find</div>
+                                   
     </div>
-     <div className='bg-blue-500 w-20 items-center p-5  place-items-center m-auto'><span>hello</span></div></div>
+     </div>
   )
 }
 
