@@ -34,7 +34,7 @@ function Form() {
         </select>  */}
   </div>
 
-  <div className='bg-gray-300 mt-5 p-2 w-[20%] text-gray-100 font-bold'>Find</div>
+  <div className='bg-gray-400 mt-5 p-2 w-[20%] text-gray-600 font-bold'>Find</div>
                                    
     </div>
      </div>
