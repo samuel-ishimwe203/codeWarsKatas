@@ -19,7 +19,8 @@ function Navbar() {
         </div>
 
         <div className='fixed left-0 top-0 w-[20%] h-full border-r border-r-gray-900'>
-             <ul className='pt-10' >
+             <h1 className='w-full text-[#00df9a] font-bold text-2xl m-4'>REACT.</h1>
+             <ul className='pt-10 uppercase' >
                  <li className='p-4'>Home</li>
                  <li className='p-4'>Company</li>
                  <li className='p-4'>Resources </li>
