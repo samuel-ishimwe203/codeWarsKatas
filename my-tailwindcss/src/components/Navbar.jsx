@@ -24,7 +24,8 @@ function Navbar() {
           {!nav?<AiOutlineClose size={20}/>:<AiOutlineMenu size={20}/>}
       
         </div>
-
+         
+         <div className='md:hidden block'>
         <div className={!nav?'fixed left-0 top-0 w-[30%] h-full border-r border-r-gray-900 bg-black':'fixed left-[-100%] ease-in-out duration-500'}>
              <h1 className='w-full text-[#00df9a] font-bold text-xl p-4'>REACT.</h1>
              <ul className='p-2 uppercase' >
@@ -34,6 +35,7 @@ function Navbar() {
                  <li className='p-4 border-b border-gray-600'>About</li>
                  <li className='p-4 border-b border-gray-600'>contact</li>
              </ul>
+        </div>
         </div>
     </div>
   )
